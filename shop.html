@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Shop</title>
+    <link rel="stylesheet" href="styleshop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <header class="fixed-header">
+        <div class="menu">
+            <a href="/" class="logo"><img src="Screenshot_1.png" alt="Grind Elul Skate Logo">Grind Elul Skate</a>
+            <nav>
+                <ul class="menu-bar">
+                    <li><a href="shop.html">Shop All</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="SkateShop.html#contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#" class="login">Log In</a>
+                <a href="#" class="shopping-bag">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id="swup">
+        <div class="top-section-wrapper"> 
+            <aside class="sidebar fixed-sidebar">
+                <nav class="sidebar-nav">
+                    <ul class="breadcrumb-nav">
+                        <li><a href="/">Home</a></li>
+                        <li>></li>
+                        <li><a href="products.html">All Products</a></li>
+                    </ul>
+                </nav>
+
+                <div class="filter-section">
+                    <h3>Browse by</h3>
+                    <hr class="divider">
+
+                    <div class="filter-group">
+                        <a href="products.html" class="all-products-link">All Products</a>
+                        <ul class="category-list">
+                            <li><a href="#decks">Decks</a></li>
+                            <li><a href="#trucks">Trucks</a></li>
+                            <li><a href="#wheels">Wheels</a></li>
+                        </ul>
+                    </div>
+
+                    <h3 class="filter-title">Filter by Price</h3>
+                    <div class="price-filter">
+                        <label for="priceRange">Price Range:</label>
+                        <input type="range" id="priceRange" min="0" max="500" value="50" step="1">
+                        <div class="price-display">
+                            <span id="minPrice">$0</span>
+                            <span id="selectedPrice">$50</span>
+                            <span id="maxPrice">$500</span>
+                        </div>
+                    </div>
+<hr>
+                    <div class="filter-accordion">
+                        <div class="filter-item">
+                            <h4 class="filter-heading">
+                                Color
+                                <i class="fas fa-plus toggle-icon"></i>
+                            </h4>
+                            <ul class="filter-options hidden">
+                                <li><label><input type="checkbox" value="black"> Black</label></li>
+                                <li><label><input type="checkbox" value="natural"> Natural</label></li>
+                                <li><label><input type="checkbox" value="silver"> Silver</label></li>
+                                <li><label><input type="checkbox" value="white"> White</label></li>
+                            </ul>
+                        </div>
+<hr>
+                        <div class="filter-item">
+                            <h4 class="filter-heading">
+                                Durometer
+                                <i class="fas fa-plus toggle-icon"></i>
+                            </h4>
+                            <ul class="filter-options hidden">
+                                <li><label><input type="checkbox" value="78a"> 78A</label></li>
+                                <li><label><input type="checkbox" value="80a"> 80A</label></li>
+                            </ul>
+                        </div>
+<hr>
+                        <div class="filter-item">
+                            <h4 class="filter-heading">
+                                Size
+                                <i class="fas fa-plus toggle-icon"></i>
+                            </h4>
+                            <ul class="filter-options hidden">
+                                <li><label><input type="checkbox" value="7.5"> 7.5"</label></li>
+                                <li><label><input type="checkbox" value="7.75"> 7.75"</label></li>
+                                <li><label><input type="checkbox" value="8.0"> 8.0"</label></li>
+                                <li><label><input type="checkbox" value="8.125"> 8.125"</label></li>
+                                <li><label><input type="checkbox" value="8.25"> 8.25"</label></li>
+                                <li><label><input type="checkbox" value="8.375"> 8.375"</label></li>
+                                <li><label><input type="checkbox" value="8.5"> 8.5"</label></li>
+                            </ul>
+                        </div>
+<hr>
+                        <div class="filter-item">
+                            <h4 class="filter-heading">
+                                Weight
+                                <i class="fas fa-plus toggle-icon"></i>
+                            </h4>
+                            <ul class="filter-options hidden">
+                                <li><label><input type="checkbox" value="lightweight"> Lightweight</label></li>
+                                <li><label><input type="checkbox" value="standard"> Standard</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="content-right-of-sidebar">
+                <section class="category-banner">
+                    <img src="wheeelless.avif" alt="Skateboard Wheels">
+                    <div class="banner-text">
+                        <h2>All Products</h2>
+                        <p>This is your category description. It’s a great place to tell customers what this category is<br>
+                            about, connect with your audience and draw attention to your products.</p>
+                    </div>
+                </section>
+
+                <div class="shop-container">
+                    <div class="product-grid">
+                        <a href="Aluminum Skateboard Truck.html" class="product-item">
+                            <img src="Aluminum Skateboard Truck.avif" alt="Aluminum Skateboard Truck">
+                            <h3>Aluminum Skateboard Truck</h3>
+                            <p>$59.99</p>
+                        </a>
+                        <a href="Cruising Soft Wheels.html" class="product-item">
+                            <img src="Cruising Soft Wheels.avif" alt="Cruising Soft Wheels">
+                            <h3>Cruising Soft Wheels</h3>
+                            <p>$34.99</p>
+                        </a>
+                        <a href="Maple Wood Deck.html" class="product-item">
+                            <img src="Maple Wood Deck.avif" alt="Maple Wood Deck">
+                            <h3>Maple Wood Deck</h3>
+                            <p>$24.99</p>
+                        </a>
+                        <a href="Performance Skate Truck.html" class="product-item">
+                            <img src="Performance Skate Truck.avif" alt="Performance Skate Truck">
+                            <h3>Performance Skate Truck</h3>
+                            <p>$9.99</p>
+                        </a>
+                        <a href="Sleek Design Truck.html" class="product-item">
+                            <img src="Sleek Design Truck.avif" alt="Sleek Design Truck">
+                            <h3>Sleek Design Truck</h3>
+                            <p>$19.99</p>
+                        </a>
+                        <a href="Street Park Wheels.html" class="product-item">
+                            <img src="Street Park Wheels.avif" alt="Street Park Wheels">
+                            <h3>Street Park Wheels</h3>
+                            <p>$14.99</p>
+                        </a>
+                        <a href="Street Skating Deck.html" class="product-item">
+                            <img src="Street Skating Deck.avif" alt="Street Skating Deck">
+                            <h3>Street Skating Deck</h3>
+                            <p>$39.99</p>
+                        </a>
+                        <a href="Urethane Skate Wheels.html" class="product-item">
+                            <img src="Urethane Skate Wheels.avif" alt="Urethane Skate Wheels">
+                            <h3>Urethane Skate Wheels</h3>
+                            <p>$17.99</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<hr style="width: calc(100% - 100px); margin: 0 50px;">
+<footer class="site-footer">
+    <hr>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="Screenshot_1.png" alt="Grind Elul Skate Logo">
+            <span>Grind Elul Skate</span>
+        </div>
+        <div class="contact-info">
+            <p>123-456-7890<br>info@mysite.com<br><br>500 Terry Francine St.<br>San Francisco, CA 94158</p>
+        </div>
+        <div class="footer-links">
+            <p><a href="https://www.wix.com/sgtemplates/grind-elul-skate/english-privacy-policy" target="_blank">Privacy Policy</a></p>
+            <p><a href="https://www.wix.com/sgtemplates/grind-elul-skate/accessibility-statement" target="_blank">Accessibility Statement</a></p>
+            <p><a href="https://www.wix.com/sgtemplates/grind-elul-skate/english-shipping-policy" target="_blank">Shipping Policy</a></p>
+            <p><a href="https://www.wix.com/sgtemplates/grind-elul-skate/english-terms-conditions" target="_blank">Terms & Conditions</a></p>
+            <p><a href="https://www.wix.com/sgtemplates/grind-elul-skate/english-refund-policy" target="_blank">Refund Policy</a></p>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    </div>
+    <p class="copyright">© 2035 by Grind Elul Skate.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swup@latest/dist/swup.min.js"></script>
+<script>
+    const swup = new Swup();
+
+    swup.on('contentReplaced', initFilterToggles);
+    document.addEventListener('DOMContentLoaded', initFilterToggles);
+
+    function initFilterToggles() {
+        const filterHeadings = document.querySelectorAll('.filter-heading');
+
+        filterHeadings.forEach(heading => {
+            heading.removeEventListener('click', toggleFilterOptions);
+            heading.addEventListener('click', toggleFilterOptions);
+
+            const options = heading.nextElementSibling;
+            const icon = heading.querySelector('.toggle-icon');
+            if (!options.classList.contains('hidden')) {
+                heading.classList.add('active');
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            }
+        });
+
+        const priceRange = document.getElementById('priceRange');
+        const selectedPrice = document.getElementById('selectedPrice');
+        const maxPrice = document.getElementById('maxPrice');
+
+        if (priceRange && selectedPrice && maxPrice) {
+            maxPrice.textContent = '$' + priceRange.max;
+
+            priceRange.addEventListener('input', function() {
+                selectedPrice.textContent = '$' + priceRange.value;
+            });
+        }
+    }
+
+    function toggleFilterOptions(event) {
+        const heading = event.currentTarget;
+        const options = heading.nextElementSibling;
+        const icon = heading.querySelector('.toggle-icon');
+
+        if (options) {
+            options.classList.toggle('hidden');
+            heading.classList.toggle('active');
+
+            if (options.classList.contains('hidden')) {
+                icon.classList.remove('fa-minus');
+                icon.classList.add('fa-plus');
+            } else {
+                icon.classList.remove('fa-plus');
+                icon.classList.add('fa-minus');
+            }
+        }
+    }
+</script>
+</body>
+</html>
